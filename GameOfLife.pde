@@ -9,7 +9,7 @@ private boolean running = true;
 private int generation = 0;
 
 public void setup () {
-  size(400, 400);
+  size(450, 400);
   frameRate(6);
         Interactive.make( this );
         residents = new Life[20][20];
