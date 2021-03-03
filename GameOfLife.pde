@@ -1,12 +1,12 @@
 import de.bezier.guido.*;
 //Declare and initialize constants NUM_ROWS and NUM_COLS = 20
-Life[][] residents;
-    boolean[][] newResidents;
-    int neighbors;
-    int NUM_ROWS = 20;
-    int NUM_COLS = 20;
-    boolean running = true;
-    int generation = 0;
+private Life[][] residents;
+private boolean[][] newResidents;
+private int neighbors;
+private int NUM_ROWS = 20;
+private int NUM_COLS = 20;
+private boolean running = true;
+private int generation = 0;
 
 public void setup () {
   size(400, 400);
