@@ -155,8 +155,8 @@ public class Life {
             myCol = col;
             y = myCol*width;
             x = myRow*height;
-            //alive = Math.random() < .5; // 50/50 chance cell will be alive
-            alive = false;
+            alive = Math.random() < .5; // 50/50 chance cell will be alive
+            //alive = false;
             Interactive.add( this ); // register it with the manager
         }
 
