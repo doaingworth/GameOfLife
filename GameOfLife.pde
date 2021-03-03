@@ -125,6 +125,9 @@ public void mousePressed () {
         if (isValid(mouseX / 20, mouseY / 20)) {
             residents[mouseX / 20][mouseY / 20].mousePressed();
         }
+        else if (isValid(mouseX / 20, mouseY / 20)) {
+            residents[mouseX / 20][mouseY / 20].mousePressed();
+        }
         else if (running) {
             if(mouseX < 50 && mouseY > 400) {
                 running = false;
@@ -138,9 +141,6 @@ public void mousePressed () {
     }
 
     public void mouseDragged () {
-        if (isValid(mouseX / 20, mouseY / 20)) {
-            residents[mouseX / 20][mouseY / 20].mousePressed();
-        }
     }
 
 public class Life {
